@@ -1,0 +1,72 @@
+ul{
+    list-style: none;
+}
+.navbar-one ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-two ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-three{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-three div{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 200px;
+}
+.navbar-three ul {
+    display: flex;
+}
+.navbar-four{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar-four div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 200px;
+}
+.four-links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+.four-buttons{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 200px;
+}
+.navbar-five{
+    display:flex;
+    border: 2px dashed black;
+}
+.navbar-five div{
+   display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 200px;
+}
+.five-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+.five-buttons{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+
+
