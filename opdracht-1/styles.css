@@ -1,14 +1,20 @@
 ul{
     list-style: none;
 }
+/* --------------- navigation bar 1 ------------------------- */
+
 .navbar-one ul{
     display: flex;
     justify-content: space-between;
 }
+/* --------------- navigation bar 2 ------------------------- */
+
 .navbar-two ul{
     display: flex;
     justify-content: flex-end;
 }
+/* --------------- navigation bar 3 ------------------------- */
+
 .navbar-three{
     display: flex;
     justify-content: space-between;
@@ -21,6 +27,8 @@ ul{
 .navbar-three ul {
     display: flex;
 }
+/* --------------- navigation bar 4 ------------------------- */
+
 .navbar-four{
     display: flex;
     justify-content: flex-start;
@@ -44,9 +52,10 @@ ul{
     align-items: center;
     flex-basis: 200px;
 }
+/* --------------- navigation bar 5 ------------------------- */
+
 .navbar-five{
     display:flex;
-    border: 2px dashed black;
 }
 .navbar-five div{
    display: flex;
