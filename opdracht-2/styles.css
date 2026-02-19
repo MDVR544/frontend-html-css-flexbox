@@ -3,9 +3,10 @@ body{
 
 }
 /*-----------------------------vertical navigation bar---------------------------*/
-.left-side{
+nav{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     min-width: 250px;
     height: 100vh;
     Flex-grow: 1;
@@ -13,21 +14,28 @@ body{
 .navbar-company-name{
     display: flex;
     gap: 15px;
-    border: 2px dashed orange;
 }
 nav ul{
     list-style: none;
 }
-.navigation-links li{
+.navigation-links{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    border: 2px dashed orange;
+    gap: 15px;
+}
+.navigation-links a{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
 }
 .sign-up-buttons{
     display:flex;
     flex-direction: column;
-    border: 2px dashed orange;
+    align-items: center;
+    gap: 10px;
+}
+.sign-up-buttons button{
+    display: flex;
 }
 /*-------------------------------Right side content------------------------------*/
 .right-side{
