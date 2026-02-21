@@ -1,6 +1,6 @@
 body{
     display: flex;
-
+    height: 100vh;
 }
 /*-----------------------------vertical navigation bar---------------------------*/
 nav{
@@ -8,8 +8,7 @@ nav{
     flex-direction: column;
     justify-content: space-between;
     min-width: 250px;
-    height: 100vh;
-    Flex-grow: 1;
+    min-height: 100vh;
 }
 .navbar-company-name{
     display: flex;
@@ -33,25 +32,76 @@ nav ul{
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    margin-top: auto;
 }
 .sign-up-buttons button{
-    display: flex;
+    width: 250px;
 }
-/*-------------------------------Right side content------------------------------*/
-.right-side{
+/*-------------------------------right side content------------------------------*/
+.main-content{
     display: flex;
     flex-direction: column;
-    flex-grow: 8;
+    flex: 1;
+    overflow-y: auto;
 }
+/*-------------------------------header------------------------------*/
+
 header{
+    height: 400px;
     display: flex;
-    border: 2px dashed orange;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/placeholder-image.svg");
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
 }
-article{
+header h1{
     display: flex;
-    border: 2px dashed red;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+header p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 650px;
+    text-align: center;
+}
+/*-------------------------------productcards------------------------------*/
+.product-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 500px;
+    max-width: 260px;
+}
+.card-content span{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-people{
+    height: 1em;
+}
+/*-------------------------------footer------------------------------*/
+
 footer{
+    background-color: #383838;
+    color: #e3e3e3;
     display: flex;
-    border: 2px dashed blue;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
 }
